@@ -30,10 +30,17 @@ leaf* add_leaf(leaf* root, leaf* new_node) {
 	return root;
 }
 
-void show_tree(leaf* root) {
+void show_tree_internal(leaf* root) {
 	if (root) {
-		show_tree(root->left);
+		show_tree_internal(root->left);
 		printf("%d ", root->key);
-		show_tree(root->right);
+		show_tree_internal(root->right);
 	}
 }
+
+void show_tree(leaf* root) {
+    printf("[ ");
+    show_tree_internal(root);
+    printf("]\n");
+}
+
