@@ -1,5 +1,5 @@
 build:
-	clang -o main.out main.c q.c
+	clang -o bin/main src/*.c
 
 test: build
-	./main.out
+	bin/main

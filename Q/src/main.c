@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "q.h"
 
 void clear_stdin() {
@@ -34,6 +35,7 @@ int main(int argc, char const *argv[])
 				break;
 			case 'e':
 			case 'q': return 0;
+            case 'x': exit(0);
 			default : printf("Invalid option\n");
 		}
 
