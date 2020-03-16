@@ -1,2 +1,5 @@
 # exclude bin
 **/bin/
+
+# macos
+.DS_Store
