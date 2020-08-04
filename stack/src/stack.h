@@ -20,4 +20,3 @@ char peek(stack *);
 int is_empty(stack *);
 
 #endif
-
