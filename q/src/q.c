@@ -1,9 +1,9 @@
 /************************************\
-** Implementation of a growing      **
-** `int` queue as a Linked List     **
-** (Identify what's wrong)          **
-**                                  **
-** Author: @theteachr (Nikhil CSB)  **
+ * Implementation of a growing      *
+ * `int` queue as a Linked List     *
+ * (Identify what's wrong)          *
+ *                                  *
+ * Author: @theteachr               *
 \************************************/
 
 #include <stdio.h>

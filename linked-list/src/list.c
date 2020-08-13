@@ -1,8 +1,8 @@
 /************************************\
-** Implementation of a singly `int` **
-** linked list                      **
-**                                  **
-** Author: @theteachr (Nikhil CSB)  **
+ * Implementation of a singly `int` *
+ * linked list                      *
+ *                                  *
+ * Author: @theteachr               *
 \************************************/
 
 #include <stdio.h>
